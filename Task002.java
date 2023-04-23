@@ -5,12 +5,12 @@ import java.util.Arrays;
 
 public class Task002 {
     public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 3, 4};// todo реализовать пользовательский ввод
+        int[] arr = new int[]{1, 2, 2, 1};// todo реализовать пользовательский ввод
         int[] revArr = reversArrayInt(arr);
         if (Arrays.equals(revArr, arr)) {
-            System.out.println("Массив симетричный");
+            System.out.println("Массив симметричный");
         } else {
-            System.out.println("Массив не симетричный");
+            System.out.println("Массив не симметричный");
         }
 
     }
