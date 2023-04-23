@@ -1,3 +1,7 @@
+// Cтроки:
+// Дана строка. Поменять местами ее половины.
+// https://leetcode.com/problems/add-binary/
+
 import java.util.Scanner;
 
 public class Task001 {
@@ -35,8 +39,5 @@ public class Task001 {
             arr[i] = arrStr[arr.length - 1 - i];
         }
         return arr;
-    }
-
-    private static class Arras {
     }
 }
