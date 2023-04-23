@@ -9,6 +9,7 @@ public class Task001 {
         Scanner in = new Scanner(System.in);
         String str = in.nextLine();
         System.out.println(reversString(str));
+        in.close();
     }
 
     /**
