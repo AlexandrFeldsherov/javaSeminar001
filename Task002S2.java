@@ -1,11 +1,14 @@
 // 2) Дана последовательность из N целых чисел. Верно ли, что последовательность является возрастающей.
 public class Task002S2 {
     public static void main(String[] args) {
-        String number = "2,6,3,7,11";
+        String number = "2,6,7,11";
         sequenceIncreasing(number);
     }
 
-
+    /**
+     * Определяет возврастающая или нет последовательность чисел в строке
+     * @param number string
+     */
     private static void sequenceIncreasing(String number) {
         String[] arrNumberString = number.split(",");
         int arrNumber[] = new int[arrNumberString.length];
